@@ -109,7 +109,7 @@ button.slick-prev {
     position: absolute;
     background: transparent url(../img/anterior.png);
     top: 35%;
-    left: 0;
+    left: 10%;
 }
 
 button.slick-next {
@@ -119,7 +119,43 @@ button.slick-next {
     height: 51px;
     z-index: 9;
     position: absolute;
-    background: transparent url(../img/anterior.png);
+    background: transparent url(../img/posterior.png);
     top: 35%;
-    right: 0;
+    right: 10%;
 }
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li  button{
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 580px;
+}
+
+li.slick-active button {
+    background: #252323;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
