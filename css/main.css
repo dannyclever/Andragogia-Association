@@ -15,19 +15,21 @@ main {
     position: relative;
 }
 
-.logo {
+.logo_andragogia {
     float: left;
     padding: 16px;
-    width: 70%;
+    width: 70px;
 }
 
 .redes-sociais ul li {
+    margin-left: 15px;
     display: inline-block;
     float: left;
     list-style: none;
 }
 
 .redes-sociais {
-    width: 20%;
+    width: 25%;
     float: right;
+    margin-top: -60px;
 }
