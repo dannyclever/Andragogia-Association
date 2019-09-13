@@ -99,3 +99,27 @@ main {
     float: left;
     position: relative;
 }
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    background: transparent url(../img/anterior.png);
+    top: 35%;
+    left: 0;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    position: absolute;
+    background: transparent url(../img/anterior.png);
+    top: 35%;
+    right: 0;
+}
