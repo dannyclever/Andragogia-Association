@@ -43,6 +43,11 @@ main {
     background-color: #ffffff;
     width: 980px;
     margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 
@@ -65,8 +70,19 @@ main {
 }
 
 .busca {
+    text-align: center;
     width: 30%;
     float: right;
+}
+.busca input{
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    padding-left: 20px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
 }
 
 .col-100 {
