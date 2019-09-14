@@ -14,7 +14,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -157,5 +157,24 @@ li.slick-active button {
 .slick-dots li {
     display: inline-block;
     padding-left: 10px;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
 }
 
