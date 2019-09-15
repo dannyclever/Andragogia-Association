@@ -55,16 +55,16 @@ main, .content {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
-    height: 50px;
+    height: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 3px solid #FF0000;
 }
 
 .menu ul li a:hover {
-    color: #00bac6;
+    color: #FF0000;
 }
 
 .menu ul li a {
@@ -165,7 +165,7 @@ li.slick-active button {
 }
 
 .texto-destaque strong {
-    color: #646464;
+   color: #646464;
 }
 
 .texto-destaque h1 {
@@ -180,11 +180,28 @@ li.slick-active button {
 }
 
 .col-3 {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 29%;
     float: left;
     position: relative;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
 }
 
 .bloco-texto {
@@ -195,3 +212,16 @@ h3 {
     font-weight: normal!important;
 }
 
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff url(../img/flèche.png) center;
+    background-repeat: no-repeat; 
+    
+}
