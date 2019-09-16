@@ -10,7 +10,7 @@ ul {
 
 .menu-principal {
     width: 100%;
-    background-color: #252323;
+    background-color: #071b4d;
     height: 60px;
 }
 
@@ -270,7 +270,7 @@ h3 {
 }
 
 .footer {
-    background-image: url(../img/footer.png);
+    background-color: #071b4d;
     color: #ffffff;
 }
 
